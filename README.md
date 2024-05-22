@@ -10,7 +10,7 @@ The RAG application is designed to perform the following features:
 
 2. **Chunking and Vector Database**: The scraped content is chunked and stored in a vector database like Faiss for efficient retrieval.
 
-3. **Language Model API Calling**: The application integrates with a Language Model (LLM) API for generating answers to questions. You can choose any LLM API such as OpenAI's Gemini, Claude, Groq, or any other similar service.
+3. **Language Model API Calling**: The application integrates with a Language Model (LLM) API for generating answers to questions. You can choose 3 LLMs which are gpt2,bloom,openai-api.
 
 4. **Question Answering System**: Users can ask questions through Postman or any other similar source. The application retrieves the top 3 relevant chunks related to the question, passes them along with the actual question to the LLM, and generates an answer.
 
@@ -33,10 +33,8 @@ The RAG application is designed to perform the following features:
 - The system retrieves the most relevant chunks related to the question from the vector database.
 - It then utilizes the Language Model API to generate accurate answers based on the question and relevant chunks.
 
-## Q3. Additional Feature: UI Implementation
-- As a wild and innovative addition to the project, a user-friendly UI can be implemented.
-- The UI can provide a seamless interface for users to interact with the application.
-- Features like input fields for questions, buttons for submission, and a display area for answers can enhance the user experience.
+## Q3. UI Implementation
+- React is used for the ui part
 
 ## Getting Started
 
